@@ -1,4 +1,4 @@
-'''
+"""
 Function:
     requests模拟登录
 Author:
@@ -7,14 +7,14 @@ Author:
     Charles的皮卡丘
 更新日期:
     2022-07-19
-'''
+"""
 import warnings
 from .modules import *
 warnings.filterwarnings('ignore')
 
 
 '''模拟登录类-直接返回登录后的session'''
-class Login():
+class Login:
     def __init__(self, disable_print_auth=False, **kwargs):
         if not disable_print_auth: print(self)
         self.supported_apis = {
@@ -38,7 +38,7 @@ class Login():
 
 
 '''返回对应网站的客户端'''
-class Client():
+class Client:
     def __init__(self, disable_print_auth=False, **kwargs):
         if not disable_print_auth: print(self)
         self.supported_clients = {
