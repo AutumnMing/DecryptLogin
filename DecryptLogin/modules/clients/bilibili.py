@@ -1,4 +1,4 @@
-'''
+"""
 Function:
     B站客户端
 Author:
@@ -7,7 +7,7 @@ Author:
     Charles的皮卡丘
 更新日期:
     2022-03-11
-'''
+"""
 from .baseclient import BaseClient
 
 
