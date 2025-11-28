@@ -1,4 +1,4 @@
-'''
+"""
 Function:
     setup
 Author:
@@ -9,7 +9,7 @@ GitHub:
     https://github.com/CharlesPikachu
 更新日期:
     2022-07-19
-'''
+"""
 import DecryptLogin
 from setuptools import setup, find_packages
 
