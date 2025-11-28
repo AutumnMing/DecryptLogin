@@ -1,11 +1,11 @@
-'''
+"""
 Function:
     基类客户端
 Author:
     Charles
 微信公众号:
     Charles的皮卡丘
-'''
+"""
 import os
 import pickle
 import requests
@@ -13,7 +13,7 @@ from ..core import *
 
 
 '''基类客户端'''
-class BaseClient():
+class BaseClient:
     def __init__(self, website_name=None, reload_history=True, auto_cache_history=True, **kwargs):
         self.supported_apis = {
             'douban': douban().login, 'weibo': weibo().login, 'github': github().login, 'music163': music163().login, 
